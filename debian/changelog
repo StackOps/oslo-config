@@ -1,0 +1,12 @@
+oslo-config (2013.1~b3-0ubuntu1) raring; urgency=low
+
+  [ Chuck Short ]
+  * Initial release.
+
+  [ James Page ]
+  * d/control: Enriched package description, renamed binary package
+    oslo-config -> python-oslo-config, made Architecture: all.
+  * d/watch: Mangle upstream version number to ensure package versioning
+    works correctly for pre-release versions of oslo-config.
+
+ -- Chuck Short <zulcss@ubuntu.com>  Sun, 17 Feb 2013 10:29:06 -0600

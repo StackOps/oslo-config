@@ -1,0 +1,24 @@
+Source: oslo-config
+Section: python
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends:
+ debhelper (>= 8.0.0),
+ python-all,
+ python-fixtures,
+ python-mox,
+ python-nose,
+ python-setuptools,
+ python-sphinx,
+ python-testtools
+Standards-Version: 3.9.4
+
+Package: python-oslo-config
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: OpenStack Oslo Configuration API
+ The OpenStack Oslo project provides Python libraries containing
+ instructure code shared by OpenStack projects.
+ .
+ The OpenStack Oslo Configuration API supports parsing command line
+ arguments and .init style configuration files.

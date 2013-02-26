@@ -1,0 +1,3 @@
+version=3
+opts="uversionmangle=s/([a-zA-Z])/~$1/" \
+ http://tarballs.openstack.org/oslo-config/ oslo-config-(\d.*).tar.gz
